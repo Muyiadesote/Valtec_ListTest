@@ -21,6 +21,7 @@ public class VerifyTagTest extends base {
 
         vtp.OpenWork();
         Assert.assertTrue(vtp.AssertWork());
+        driver.close();
 
     }
 }
