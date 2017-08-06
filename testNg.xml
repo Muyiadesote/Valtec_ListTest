@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "TestNG Valtech">
+
+
+
+    <test name="AssertLatestNews">
+        <classes>
+            <class name="TestCases.AssertLatestNews"></class>
+        </classes>
+    </test>
+
+    <test name="VerifyTagTest">
+        <classes>
+            <class name = "TestCases.VerifyTagTest"></class>
+        </classes>
+    </test>
+
+
+
+
+</suite>
