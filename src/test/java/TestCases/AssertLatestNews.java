@@ -1,7 +1,8 @@
 package TestCases;
 
 import Browser.base;
-import Browser.pages.AssertLatesNewsPage;
+
+import Browser.pages.LatestNewsPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,10 +16,11 @@ import org.testng.annotations.Test;
 public class AssertLatestNews extends base {
     @Test
     public void AssertLatestTest() {
-        AssertLatesNewsPage asp = new AssertLatesNewsPage(driver);
+        LatestNewsPage asp = new LatestNewsPage(driver);
         Assert.assertTrue(asp.AssertLatestN());
         driver.close();
 
 
     }
 }
+

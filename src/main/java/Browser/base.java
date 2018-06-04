@@ -38,7 +38,7 @@ public class base {
             driver = new FirefoxDriver();
 
         }else if(p.getProperty("browser").contains("chrome")){
-            System.setProperty("webdriver.chrome.driver", "C:\\WIP2\\InterviewTests\\Test\\src\\main\\java\\Browser\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src\\Drivers\\chromedriver.exe");
             driver = new ChromeDriver();
         }else {
             System.setProperty("webdriver.IE.driver", "C:\\WIP\\FirstAutomationProject\\IEDriver\\IEDriverServer.exe");

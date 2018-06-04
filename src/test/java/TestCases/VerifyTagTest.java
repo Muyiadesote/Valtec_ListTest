@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
  */
 public class VerifyTagTest extends base {
 
-    @Test(priority = 1)
+    @Test
     public void ConfirmTagAbout(){
         VerifyTagsPage vtp = new  VerifyTagsPage(driver);
         vtp.OpenAbout();

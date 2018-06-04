@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestCases.VerifyTagTest" duration-ms="18665" started-at="2017-08-07T22:07:50Z" finished-at="2017-08-07T22:08:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="18665" started-at="2017-08-07T22:07:50Z" finished-at="2017-08-07T22:08:08Z">
+      <class name="TestCases.VerifyTagTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.VerifyTagTest@2c6a3f77]" name="setup" is-config="true" duration-ms="10295" started-at="2017-08-07T23:07:50Z" finished-at="2017-08-07T23:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ConfirmTagAbout()[pri:0, instance:TestCases.VerifyTagTest@2c6a3f77]" name="ConfirmTagAbout" duration-ms="8300" started-at="2017-08-07T23:08:00Z" finished-at="2017-08-07T23:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmTagAbout -->
+      </class> <!-- TestCases.VerifyTagTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestCases.VerifyTagTest -->
+</testng-results>

@@ -1,0 +1,3 @@
+Browser\base.class
+Browser\pages\VerifyTagsPage.class
+Browser\pages\AssertLatesNewsPage.class

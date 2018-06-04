@@ -28,7 +28,7 @@ public class VerifyTagsPage {
     @FindBy (xpath = ".//*[@id='container']/section/header/h1")
     private WebElement PageServices;
 
-    @FindBy (xpath = ".//*[@id='navigationMenuWrapper']/div/ul/li[3]/a/span")
+    @FindBy (xpath = ".//*[@id='navigationMenuWrapper']/div/ul/li[2]/a/span")
     private WebElement Work;
 
     @FindBy (xpath = ".//*[@id='container']/header/h1")
@@ -51,6 +51,7 @@ public class VerifyTagsPage {
 
     }
     public boolean AssertWork() {
-        return Work.isDisplayed();
+
+        return PageWork.isDisplayed();
     }
 }

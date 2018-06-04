@@ -15,6 +15,12 @@
         </classes>
     </test>
 
+    <test name="AssertOfficesTest">
+        <classes>
+            <class name = "TestCases.AssertOfficesTest"></class>
+        </classes>
+    </test>
+
 
 
 
