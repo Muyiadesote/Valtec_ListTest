@@ -33,7 +33,7 @@ public class AssertOfficesPage {
     @FindBy (xpath = ".//*[@id='container']/div[9]/div[2]/a")
     private WebElement Offices;
 
-    @FindBy (id = "CybotCookiebotDialogBodyButtonAccept")
+    @FindBy (xpath = "//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']")
     private WebElement closeCookies;
 
 

@@ -34,16 +34,22 @@ public class VerifyTagsPage {
     @FindBy (xpath = ".//*[@id='container']/header/h1")
     private WebElement PageWork;
 
+    @FindBy (xpath = "//*[@id='CybotCookiebotDialogBodyLevelButtonAccept']")
+    private WebElement closeCookies;
+
     public void OpenAbout(){
+        closeCookies.click();
         About.click();
     }
     public void OpenServices() {
         Services.click();
     }
     public void OpenWork() {
+
         Work.click();
     }
     public boolean AssertServices(){
+
         return PageServices.isDisplayed();
     }
     public boolean AssertAbout() {
