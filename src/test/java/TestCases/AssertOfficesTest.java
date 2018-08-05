@@ -5,9 +5,7 @@ import Browser.pages.AssertOfficesPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-/**
- * Created by musti on 07/08/2017.
- */
+
 public class AssertOfficesTest extends base {
 
     @Test
